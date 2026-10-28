@@ -162,7 +162,8 @@ EC 1 (Oxidoreductases)     0.5738    0.5690    0.5714       239
 - **Repository**: `https://github.com/razybas/ec-predict`
 - **Branch**: `main`
 - **Visibility**: Public
-- **Commit SHA**: Recorded upon final push (`main`).
+- **Initial Commit SHA**: `992657e5fe33ff5bcb725432ac4fc031dddc3697`
+- **Release Tree State**: Synced with GitHub remote `origin/main`
 
 ---
 
