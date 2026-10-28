@@ -1,0 +1,66 @@
+=================================================================
+EC-Predict: Test Set Metrics Report
+=================================================================
+
+-----------------------------------------------------------------
+MODEL: Logistic Regression Baseline
+-----------------------------------------------------------------
+Stage A (Binary Enzyme vs Non-Enzyme):
+  Accuracy: 0.8396
+  Macro-F1: 0.8395
+
+Stage B (6-Class EC 1-6 on True Enzymes):
+  Accuracy: 0.6430
+  Macro-F1: 0.6407
+
+End-to-End (7-Way Hierarchical: Non-Enzyme + EC 1-6):
+  Accuracy: 0.7022
+  Macro-F1: 0.5939
+
+Classification Report (End-to-End 7-Way):
+                        precision    recall  f1-score   support
+
+            Non-Enzyme     0.8322    0.8505    0.8412      1324
+EC 1 (Oxidoreductases)     0.5468    0.6360    0.5880       239
+   EC 2 (Transferases)     0.4564    0.3956    0.4238       225
+     EC 3 (Hydrolases)     0.4167    0.3505    0.3807       214
+         EC 4 (Lyases)     0.5472    0.5524    0.5498       210
+     EC 5 (Isomerases)     0.6085    0.5476    0.5764       210
+        EC 6 (Ligases)     0.7727    0.8238    0.7974       227
+
+              accuracy                         0.7022      2649
+             macro avg     0.5972    0.5937    0.5939      2649
+          weighted avg     0.6955    0.7022    0.6979      2649
+
+
+-----------------------------------------------------------------
+MODEL: MLP Neural Network
+-----------------------------------------------------------------
+Stage A (Binary Enzyme vs Non-Enzyme):
+  Accuracy: 0.8297
+  Macro-F1: 0.8297
+
+Stage B (6-Class EC 1-6 on True Enzymes):
+  Accuracy: 0.6204
+  Macro-F1: 0.6216
+
+End-to-End (7-Way Hierarchical: Non-Enzyme + EC 1-6):
+  Accuracy: 0.6848
+  Macro-F1: 0.5836
+
+Classification Report (End-to-End 7-Way):
+                        precision    recall  f1-score   support
+
+            Non-Enzyme     0.8279    0.8323    0.8301      1324
+EC 1 (Oxidoreductases)     0.5738    0.5690    0.5714       239
+   EC 2 (Transferases)     0.4062    0.4044    0.4053       225
+     EC 3 (Hydrolases)     0.3154    0.3832    0.3460       214
+         EC 4 (Lyases)     0.6117    0.5476    0.5779       210
+     EC 5 (Isomerases)     0.5909    0.5571    0.5735       210
+        EC 6 (Ligases)     0.8104    0.7533    0.7808       227
+
+              accuracy                         0.6848      2649
+             macro avg     0.5909    0.5782    0.5836      2649
+          weighted avg     0.6904    0.6848    0.6870      2649
+
+

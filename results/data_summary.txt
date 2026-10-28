@@ -1,0 +1,18 @@
+=================================================================
+EC-Predict: Data Summary (UniProt Swiss-Prot Reviewed Query)
+=================================================================
+Date Fetched: 2026-10-28
+Total Records in Dataset: 13244
+
+--- Per-Class Counts (Fetched vs. Post-Deduplication) ---
+Non-Enzyme (Class 0): Fetched=6657, Post-Dedup=6622
+EC 1 (Oxidoreductases): Fetched=1200, Post-Dedup=1194
+EC 2 (Transferases):     Fetched=1200, Post-Dedup=1127
+EC 3 (Hydrolases):       Fetched=1200, Post-Dedup=1068
+EC 4 (Lyases):           Fetched=1200, Post-Dedup=1048
+EC 5 (Isomerases):       Fetched=1200, Post-Dedup=1049
+EC 6 (Ligases):          Fetched=1200, Post-Dedup=1136
+
+Total Enzymes (EC 1-6): Fetched=7200, Post-Dedup=6622
+Total Non-Enzymes:      Fetched=6657, Post-Dedup=6622
+=================================================================
